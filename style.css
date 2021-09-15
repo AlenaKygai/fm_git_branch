@@ -1,5 +1,21 @@
 body{
-
   background-color: rgb(236, 215, 215);
   color: blueviolet;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  max-width: 300px;
+  min-height: 200px;
+  margin: auto;
+  /* border: 2px solid cadetblue; */
+}
+input:focus{
+  outline-color: crimson;
+}
+label{
+  display: flex;
+  flex-direction: column;
+
 }
