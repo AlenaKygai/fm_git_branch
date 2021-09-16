@@ -7,9 +7,10 @@ form{
   flex-direction: column;
   justify-content: space-around;
   max-width: 300px;
-  min-height: 200px;
+  min-height: 50vh;
   margin: auto;
-  /* border: 2px solid cadetblue; */
+ /* border: 2px solid cadetblue;
+  */
 }
 input:focus{
   outline-color: crimson;
@@ -17,5 +18,8 @@ input:focus{
 label{
   display: flex;
   flex-direction: column;
-
 }
+.bnt-block{
+  text-align: center;
+}
+
