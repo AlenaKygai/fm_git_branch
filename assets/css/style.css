@@ -19,7 +19,7 @@ body{
   font-family: sans-serif;
 }
 .form{
-  max-width: 450px;
+  max-width: 400px;
   min-height: 60vh;
   padding: 25px 15px;
   border-radius: var(--main-radius);
