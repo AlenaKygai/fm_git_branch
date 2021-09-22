@@ -11,16 +11,16 @@
   <section class="form">
     <h1 class="form-title">register</h1>
     <p class="form-subTitle">Create your account. It`s free and only takes a minute.</p>
-    <form action="">
+    <form action="GET">
       <div class="form-fullName">
-        <input type="text" name="firstName" placeholder="First Name" class="form-input">
-        <input type="text" name="lastName" placeholder="Last Name" class="form-input">
+        <input type="text" name="firstName" placeholder="First Name" class="form-input" required pattern="^[a-z0-9_-]{3,15}$">
+        <input type="text" name="lastName" placeholder="Last Name" class="form-input" required pattern="^[a-z0-9_-]{3,15}$">
       </div>
-      <input type="email" name="email" placeholder="Email" class="form-input">
-      <input type="password" name="pass" placeholder="Password" class="form-input">
-      <input type="password" name="passConfirm" placeholder="Confirm Password" class="form-input">
+      <input type="email" name="email" placeholder="Email" class="form-input" required pattern="[^@ \t\r\n]+@[^@ \t\r\n]+\.[^@ \t\r\n]+">
+      <input type="password" name="pass" placeholder="Password" class="form-input" required>
+      <input type="password" name="passConfirm" placeholder="Confirm Password" class="form-input" required>
       <label for="acceptTerms" class="form-checkbox">
-        <input type="checkbox" name="acceptTerms" id="acceptTerms">
+        <input type="checkbox" name="acceptTerms" id="acceptTerms" required>
         <span class="form-checkbox-content">I accept the <a href="http://">Terms of Use</a> & <a href="http://">Privacy Policy.</a></span>
       </label>
       <div class="from-btn">

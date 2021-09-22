@@ -65,6 +65,12 @@ body{
   border: 1px solid var(--secondary-color);
   border-radius: var(--main-radius);
 }
+/* .form .form-input:invalid{
+  border: 1px solid red;
+}
+.form .form-input:valid{
+  border: 1px solid var(--secondary-color);
+} */
 .form .form-input::placeholder{
   color: var(--text-color);
 }
