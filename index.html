@@ -4,36 +4,30 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Practic git</title>
-  <link rel="stylesheet" href="./style.css">
+  <title>Practic form</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-  <h1>Branch develop</h1>
-    <h2>Heading</h2>
-      <h3>Sub Heading</h3>
-        <nav>
-            <ul>
-              <li><a href="">link 1</a></li>
-              <li><a href="">link 2</a></li>
-              <li><a href="">link 3</a></li>
-              <li><a href="">link 4</a></li>
-              <li><a href="">link 5</a></li>
-              <li><a href="">link 6</a></li>
-            </ul>
-          </nav>
-  <section>
-    <h2>Heading</h2>
-    <h3>Sub heading</h3>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae et ab repudiandae! Qui ratione voluptates enim veniam incidunt esse itaque.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque similique ab temporibus possimus delectus deleniti natus quidem nihil quod suscipit!</p>
+  <section class="form">
+    <h1 class="form-title">register</h1>
+    <p class="form-subTitle">Create your account. It`s free and only takes a minute.</p>
+    <form action="">
+      <div class="form-fullName">
+        <input type="text" name="firstName" placeholder="First Name" class="form-input">
+        <input type="text" name="lastName" placeholder="Last Name" class="form-input">
+      </div>
+      <input type="email" name="email" placeholder="Email" class="form-input">
+      <input type="password" name="pass" placeholder="Password" class="form-input">
+      <input type="password" name="passConfirm" placeholder="Confirm Password" class="form-input">
+      <label for="acceptTerms" class="form-checkbox">
+        <input type="checkbox" name="acceptTerms" id="acceptTerms">
+        <span class="form-checkbox-content">I accept the <a href="http://">Terms of Use</a> & <a href="http://">Privacy Policy.</a></span>
+      </label>
+      <div class="from-btn">
+        <input type="submit" value="Register Now" class="form-input">
+      </div>
+    </form>
   </section>
-  <section>
-    <h2>Heading</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque similique ab temporibus possimus delectus deleniti natus quidem nihil quod suscipit!</p>
-  </section>
-  <section>
-    <h2>Heading</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque similique ab temporibus possimus delectus deleniti natus quidem nihil quod suscipit!</p>
-  </section>
+  <p class="signIn">Already have an account? <a href="https://validator.w3.org/" target="_blank">Sign in</a></p>
 </body>
 </html>
